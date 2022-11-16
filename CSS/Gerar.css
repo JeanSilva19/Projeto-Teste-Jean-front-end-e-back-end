@@ -1,0 +1,54 @@
+h1{
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    text-align:center;
+}
+body{
+background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17,54,71));
+}
+    
+
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(0, 0, 0, 0.8)
+    padding: 15px;
+    border-radius: 15px;
+}
+
+fieldset{
+    border: 3px solid dodgerblue
+}
+legend{
+    border: 1px solid dodgerblue;
+    padding: 10px;
+    text-align: center;
+    background-color: dodgerblue;
+    border-radius: 8px;
+    color: white;
+}
+#submit{
+    background-image: linear-gradient(to right, rgb(0,92,197), rgb(90, 20, 220));
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button{
+position: fixed;
+bottom: 93%;
+right: 0%;
+padding: 15px;
+color: white;
+font-size: 15px;
+cursor: pointer;
+border-radius: 10px;
+background-color: blue;
+}
+}
